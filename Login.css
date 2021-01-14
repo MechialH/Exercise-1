@@ -1,5 +1,6 @@
 body{
     background-color: #E3F1F7;
+    font-family: Roboto, sans-serif;
     
     
 }
@@ -14,6 +15,19 @@ body{
     padding: 30px;
     
 }
+
+h1{
+    font-size: 20px;
+    margin: 4px;
+}
+
+p{
+    font-family: "Xanh Mono", sans-serif;
+    color:  rgb(179, 179, 179);
+    margin: 0px;
+    font-size: 12px;
+}
+
 
 #signin button{
     width: 100%;
@@ -33,40 +47,49 @@ body{
     border: 0;
     border-bottom: 1px solid rgb(179, 179, 179);
     width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    padding-right: 0;
 
 }
 
 #password{
     border: 0;
     border-bottom: 1px solid rgb(179, 179, 179);
-    margin-right: none;
-    padding-right: none;
+    padding: 4px;
+    font-size: 15px;
 }
 
 #buttonInside{
    background-color: white;
    color:  rgb(179, 179, 179);
     border:none;
- margin-left: none;
- padding-left: none;
-    outline:none;
     border-bottom: 1px solid  rgb(179, 179, 179);
+    font-size: 10px;
+    padding: 5px;
     
 }
 
 .input{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-right: 0;
+    padding-right: 0;
+    
     }
+    
 
 .section{
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 a{
     text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-size: 11px;
 }
 
  #welcome{
      padding: 5px;
+     
  }
