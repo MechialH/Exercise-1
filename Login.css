@@ -1,0 +1,72 @@
+body{
+    background-color: #E3F1F7;
+    
+    
+}
+
+#box{
+    background-color: white;
+    width: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    
+}
+
+#signin button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0;
+
+}
+
+#account{
+    padding: 5px;
+    display: inline-block;
+    
+}
+#email{
+    border: 0;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    width: 100%;
+
+}
+
+#password{
+    border: 0;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin-right: none;
+    padding-right: none;
+}
+
+#buttonInside{
+   background-color: white;
+   color:  rgb(179, 179, 179);
+    border:none;
+ margin-left: none;
+ padding-left: none;
+    outline:none;
+    border-bottom: 1px solid  rgb(179, 179, 179);
+    
+}
+
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.section{
+    margin: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+ #welcome{
+     padding: 5px;
+ }
